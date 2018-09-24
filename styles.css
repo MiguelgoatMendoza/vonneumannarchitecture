@@ -1,0 +1,81 @@
+/* Style Sheet for von neumann architecture page */
+
+html {
+    background: url(images/blueprint.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    border-radius: 25px;
+    width: 1000px;
+    margin: 40px auto;
+    padding-bottom: 60px;
+    padding-top: 1px;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    letter-spacing: 0.5px; 
+}
+
+hr {
+    border: 1px solid #FF0000;
+    width: 700px;
+}
+
+/* Text Styles */
+h1 {
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+}
+
+.mainfont, .italics {
+    font-family: 'Verdana';
+}
+
+.cpu {
+    color: #FF0000;
+}
+
+.memoryunit {
+    color: #FF6A00;
+}
+
+.input-output {
+    color: #007F0E
+}
+
+.small, .italics  {
+    font-variant: small-caps
+}
+
+.italics {
+    font-style: italic;
+    font-size: 12px
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cpulink {
+    color: #FF0000;
+}
+
+.memorylink {
+    color: #FF6A00
+}
+
+.input-output-link {
+    color: #007F0E
+}
+
+/* Image Styles */
+img {
+    width: auto;
+    height: auto;
+    vertical-align: middle; 
+}
